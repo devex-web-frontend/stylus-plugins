@@ -1,0 +1,12 @@
+{
+	"name": "Stylus-wl-images",
+	"version": "0.0.1",
+	"main": "dist/imgWL.js",
+	"dependencies": {
+	"stylus": "~0.49.2",
+	"chalk": "~0.5.1"
+	},
+	"scripts": {
+		"test": "stylus --use ./dist/imgWL.js dist/main.styl"
+	}
+}

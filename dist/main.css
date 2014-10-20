@@ -1,0 +1,15 @@
+.test1 {
+  width: 100px;
+  height: 100px;
+  background-image: url("img/one/logo.png");
+}
+.test2 {
+  width: 100px;
+  height: 100px;
+  background-image: url("img/default/logo.png");
+}
+.test3 {
+  width: 100px;
+  height: 100px;
+  background-image: url("");
+}
