@@ -3,12 +3,9 @@
  */
 
 var stylus = require('stylus'),
-    path = require('path'),
-    nodes = stylus.nodes,
-    utils = stylus.utils
-exports = module.exports = plugin;
+    path = require('path');
 
-// conditionally expose canvas-based APIs.
+exports = module.exports = plugin;
 
 try {
 
@@ -19,18 +16,10 @@ try {
 
 exports.path = __dirname;
 
-/**
- * Return the plugin callback for stylus.
- *
- * @return {Function}
- * @api public
- */
-
 function plugin() {
   return function(style){
     style.include(__dirname);
-
-      style.define('addImg', img.addImg);
+	  style.define('addImg', img.addImg);
 
     }
   }

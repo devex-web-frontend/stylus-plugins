@@ -1,0 +1,9 @@
+.test1 {
+  background-image: url("../img/one/logo.png");
+}
+.test2 {
+  background-image: url("../img/default/logo.png");
+}
+.test3 {
+  background-image: url("");
+}
